@@ -1,0 +1,121 @@
+/* header formatting section begins here */
+*{
+    font-family:'Comic Sans MS','Comic Sans','cursive';
+}
+
+.header-container{
+    background-color: rgb(116, 65, 150);
+    height: 15vh;
+    border-bottom: 2px solid coral;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.company-logo{
+    height: 12vh;
+}
+
+.nav-bar{
+    margin-left: 10vw;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color: coral;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+}
+
+button{
+    background: coral;
+    color: white;
+    border: 2px solid white;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+
+
+button:hover{
+    background:white;
+    color: coral;
+    border: 2px solid coral;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+/*header formatting section ends here */
+/*main section formatting starts here*/
+.hero-unit-container{
+    background:#4156d3 url("../images/beach.jpg") bottom center no-repeat;
+    width:100%;
+    height:70vh;
+    text-align: center;
+}
+.hero-unit-container h1{
+    
+    background:#68cdec url("../images/blue_background.jpg");
+    margin: 0em;
+    padding-top: 20vh;
+    font-size: 5em;
+}
+
+
+.paper-layout-section{
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.paper-layout-section h2{
+    text-align: center;
+}
+
+.paper-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.card img{
+    height: 35vh;
+    width:20vw;
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    height: 65vh;
+    width:20vw;
+    padding: 1em;
+    box-shadow: 5px 5px 30px grey; /*Paper layout projection*/
+}
+footer{
+    background-color: rgb(116, 65, 150);
+    height: 15vh;
+    text-align: center;
+    border: 2px solid coral;
+    margin: 0;
+}
+
+footer h2{
+    padding-top: 1em;
+}

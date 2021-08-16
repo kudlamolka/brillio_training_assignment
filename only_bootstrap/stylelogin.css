@@ -1,0 +1,60 @@
+body {
+    color: #fff;
+    background: #63738a;
+    font-family: 'Roboto', sans-serif;
+   }
+   
+   .greentText
+   {
+       color:greenyellow;
+   }
+.mainpage {
+    width: 400px;
+    padding: 10px 0 5px;
+    margin: auto;
+    background-color: teal;
+    text-align:center;
+    color:white;
+    
+  }
+.insidepage
+{
+    width:360px;
+    color:black;
+    background-color: wheat;
+    padding: 5px 5px 5px;
+    margin: 15px 20px 15px 20px;
+}
+.field
+{
+    margin: 10px;
+    width: 280;
+}
+
+.fname
+{
+    width: 130px;
+    margin: 10px 10px 10px 5px;
+}
+.lname
+{
+    width: 130px;
+    margin: 10px 5px 10px 10px;
+}
+.box
+{
+    text-align:left;
+    margin: 10px;
+
+}
+.centered
+{
+    text-align: center;
+}
+
+.button
+{
+    background-color: green;
+    color: white;
+}
+
