@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <script>
+            function isLeapYear( year)
+            {
+                if(year%4==0)
+                {
+                    if(year%100==0)
+                    {
+                        if(year%400==0)
+                        {
+                            document.write(year+" is Leap Year");
+                        }
+                        else
+                        {
+                            document.write(year+" is Not Leap Year");
+                        }
+                    }
+                    else
+                    {
+                        document.write(year+" is Leap Year");
+                    }
+                }
+                else
+                {
+                    document.write(year+" is Not Leap Year");
+                }
+            }
+            isLeapYear(2020);
+            document.write("<br>");
+            isLeapYear(2000);
+            document.write("<br>");
+            isLeapYear(1900);
+            document.write("<br>");
+            isLeapYear(1999);
+            document.write("<br>");
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <script type="text/javascript">
+            function whatisDifference()
+            {
+                var value = document.getElementById("in").value;
+                if(value>13)
+                    document.write(2*(value-13));
+                else
+                    document.write(13-value);
+            }
+        </script>
+
+        <form>
+            Enter Value: <input type="input" id="in">
+            <input type="button" value="Find Difference" onclick="whatisDifference();">
+        </form>
+    </body>
+</html>

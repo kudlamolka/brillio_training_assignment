@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            function pyFile(filename)
+            {
+                
+                if(filename.substring(0,2) === "Py")
+                {
+                    return filename;
+                }
+                else
+                {
+                    return "Py"+filename;
+                    
+                }
+            }
+
+        console.log(pyFile("pyFile"));
+        console.log(pyFile("PyFile"));
+        console.log(pyFile("file"));
+        </script>
+        </body>
+</html>

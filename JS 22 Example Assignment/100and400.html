@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            function within100400()
+            {
+                var value = parseInt(document.getElementById("in").value);
+                if( (value>=80 && value<=120) || value == 400)
+                {
+                    alert(true);
+                }
+                else
+                {
+                    alert(false);
+                }
+            }
+        </script>
+
+        <form>
+            Enter Value : <input type="input" id="in">
+            <input type="button" value="Find Difference" onclick="within100400();">
+        </form>
+    </body>
+</html>

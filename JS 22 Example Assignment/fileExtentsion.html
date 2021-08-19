@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+            function getExtension(file)
+            {
+                var splits= file.split('.');
+                document.write(splits[splits.length-1]);
+            }
+
+            getExtension("abc.jpg");
+            document.write("<br>");
+            getExtension(".pdf");
+        </script>
+    </body>
+</html>

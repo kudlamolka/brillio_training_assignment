@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var today = new Date()
+            var now_year = today.getFullYear();
+            var xmas_year = now_year;
+            if(today.getMonth == 12 && today.getDate>25)
+                xmas_year = now_year+1;
+            var oneday = 1000*60*60*24;
+            document.write(oneday+"<br>");
+            var xmas_day = new Date(xmas_year,11,25);
+            var days = Math.floor((xmas_day.getTime() - today.getTime())/oneday);
+            document.write(days+" days left");
+
+        </script>
+    </body>
+</html>

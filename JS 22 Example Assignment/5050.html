@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script type="text/javascript">
+            function trueIf50()
+            {
+                var value1 = document.getElementById("in1").value;
+                var value2 = document.getElementById("in2").value;
+                if(parseInt(value1)==50 || parseInt(value2) == 50 || parseInt(value1+value2) == 50)
+                {
+                    alert(true);
+                }
+                else
+                {
+                    alert(false);
+                }
+            }
+        </script>
+
+        <form>
+            Enter Value 1: <input type="input" id="in1">
+            Enter Value 2: <input type="input" id="in2">
+            <input type="button" value="Find Difference" onclick="trueIf50();">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <script>
+            function convertToF()
+            {
+                var cel = document.getElementById("cel").value;
+                var far = ((9*cel)/5)+32;
+                document.write(far+" Farhenheit")
+            }
+            function convertToC()
+            {
+                var far = document.getElementById("far").value;
+                var cel = ((far-32)*5)/9;
+                document.write(cel+" Farhenheit")
+            }
+            
+        </script>
+
+        <form>
+            Celsius <input type="text"  id="cel">
+            <input type="button" onclick="convertToF()" value="Convert to Farhenheit">
+        </form>
+        <form>
+            Farhenheit<input type="text"  id="far">
+            <input type="button" onclick="convertToC()" value="Convert to Farhenheit">
+        </form>
+    </body>
+</html>
