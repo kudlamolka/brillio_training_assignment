@@ -1,0 +1,24 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "Cloud",
+      "author": "A.R. Bhat"
+    },
+    {
+      "id": 2,
+      "title": "JAVA",
+      "author": "B Singh"
+    },
+    {
+      "id": 3,
+      "title": "DSA",
+      "author": "D. Dumdare"
+    },
+    {
+      "id": 4,
+      "title": "VLSI",
+      "author": "Halesh M R"
+    }
+  ]
+}
